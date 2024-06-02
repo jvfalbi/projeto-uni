@@ -1,197 +1,197 @@
 body {
-  background: #FFFFFF;
-  overflow-x: hidden;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  padding-bottom: 140px;
-}
+    background: #FFFFFF;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding-bottom: 140px;
+  }
+  html, body {
+    min-height: 100%;
+  }
+  .logo {
+    margin-top: 6px;
+    object-fit: cover;
+    height: 60px;
+    position: absolute;
+    left: 20px;
+    left: 300px;
+    top: -1px;
+  }
+  
+  header {
+    background-color: #010030;
+    color: white;
+    text-align: center;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+  }
+  .menu-item {
+    display: inline-block;
+    margin-left: 100px;
+  }
+  .menu-item a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .menu-item a:hover {
+    background-color: #f0f0f0;
+    color: #010030;
+  }
+  .box {
+    margin-top: 100px;
+    text-align: center;
+  }
+  .principal {
+    background-color: #ebe8e8cf;
+    padding: 1em;
+    border-radius: 70px;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .logotipo {
+    width: 10%;
+    height: 10%;
+  }
+  .aparelhoPrincipal {
+    margin-top: 80px;
+    text-align: center;
+  }
+  .aparelhoPrincipal p {
+    font-size: 17px;
+    padding: 5px;
+    display: inline-block;
+    text-align: left;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 1em 0;
+    clear: left;
+  }
+  .aparelho {
+    width: 180px;
+    display: block;
+    margin: 30px auto;
+  }
+  .container {
+    margin-top: 50px;
+    text-align: center;
+    color: #010030;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .picIcon {
+    width: 90px;
+    height: 90px;
+  }
+  .textoInferior {
+    padding: 10px;
+    width: 330px;
+  }
 
-html, body {
-  min-height: 100%;
-}
+  .missao,
+  .visao,
+  .valores {
+    width: 350px;
+    height: 320px;
+    border: 3px solid #DCDCDC;
+    border-radius: 6px;
+    box-shadow: 4px 4px 4px 4px #C0C0C0;
+    display: inline-block;
+    padding-top: 50px;
+    margin-top: 50px;
+    transition: background-color 0.5s, opacity 0.5s;
+    text-align: center;
+  }
 
-.logo {
-  margin-top: 6px;
-  object-fit: cover;
-  height: 60px;
-  position: absolute;
-  left: 300px;
-  top: 5px;
-}
+  .missao {
+    margin-right: 30px;
+  }
 
-header {
-  background-color: #010030;
-  color: white;
-  text-align: center;
-  height: 70px;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  .valores {
+    margin-left: 30px;
+  }
 
-.menu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  gap: 30px;
-}
+  .missao:hover,
+  .visao:hover,
+  .valores:hover {
+    background-color: #F0FFF0;
+    opacity: 0.9;
+  }
 
-.menu-item {
-  display: inline-block;
-  margin-left: 100px;
-}
+  .lista-valores {
+    margin-top: -1px;
+    margin-left: 90px;
+    list-style: none;
+    width: 104px;
+  }
 
-.menu-item a {
-  color: white;
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  transition: background-color 0.3s, color 0.3s;
-}
+  .ponto{
+    padding: 8px;
+  }
 
-.menu-item a:hover {
-  background-color: #f0f0f0;
-  color: #010030;
-}
+  .itens{
+    padding: -30;
+    margin-left: -35px;
+  }
 
-.box {
-  margin-top: 100px;
-  text-align: center;
-}
+  .conteudo-valores {
+    padding: 10px; 
+  }
 
-.principal {
-  background-color: #ebe8e8cf;
-  padding: 1em;
-  border-radius: 70px;
-  max-width: 80%;
-  margin: 0 auto;
-}
+  .mapa {
+    padding: 2em 0;
+    margin-top: 50px;
+    text-align: center;
+  }
 
-.logotipo {
-  width: 10%;
-  height: 10%;
-}
-
-.aparelhoPrincipal {
-  margin-top: 80px;
-  text-align: center;
-}
-
-.aparelhoPrincipal p {
-  font-size: 17px;
-  padding: 5px;
-  display: inline-block;
-  text-align: left;
-  max-width: 80%;
-  margin: 0 auto;
-}
-
-.titulo-principal {
-  text-align: center;
-  font-size: 2em;
-  margin: 1em 0;
-  clear: left;
-}
-
-.aparelho {
-  width: 180px;
-  display: block;
-  margin: 30px auto;
-}
-
-
-
-.container {
-  margin-top: 50px;
-  text-align: center;
-  color: #010030;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.picIcon {
-  width: 90px;
-  height: 90px;
-}
-
-.textoInferior {
-  padding: 10px;
-  width: 330px;
-}
-
-.missao,
-.visao,
-.valores {
-  width: 350px;
-  height: 320px;
-  border: 3px solid #DCDCDC;
-  border-radius: 6px;
-  box-shadow: 4px 4px 4px 4px #C0C0C0;
-  display: inline-block;
-  padding-top: 50px;
-  transition: background-color 0.5s, opacity 0.5s;
-  text-align: center;
-}
-
-.missao:hover,
-.visao:hover,
-.valores:hover {
-  background-color: #F0FFF0;
-  opacity: 0.9;
-}
-
-.lista-valores {
-  margin-top: -25px;
-  display: inline-block;
-  margin-left: -10px;
-}
-
-.conteudo-valores {
-  padding: 10px;
-}
-
-.mapa {
-  padding: 2em 0;
-  margin-top: 50px;
-  text-align: center;
-}
-
-.mapa-conteudo {
-  width: 940px;
-  margin: 0 auto;
-}
-
-.mapa p {
-  margin: 0 0 2em;
-  text-align: center;
-}
-
-footer {
-  text-align: center;
-  background: #010030;
-  height: 50px;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-}
-
-.copy {
-  font-style: italic;
-  color: #ffffff;
-  margin: 0;
-  line-height: 50px;
-}
-
-html {
-  scroll-behavior: smooth;
-}
+  .mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+  }
+  .mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+    background: #010030;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+  .copy {
+    font-style: italic;
+    color: #ffffff;
+    margin: 0;
+    line-height: 50px;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
